@@ -1,8 +1,9 @@
 name: CI
 on:
-  pull_request:
   push:
-    branches: [ main ]
+    branches: ['**']   # déclenche sur TOUTES les branches (dont develop)
+  pull_request:        # déclenche sur chaque PR
+  workflow_dispatch:   # ajoute le bouton "Run workflow"
 jobs:
   build:
     runs-on: ubuntu-latest
