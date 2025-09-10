@@ -18,7 +18,7 @@ const Accueil = () => {
       link: "/sante-mentale"
     },
     {
-      title: "Gestion du stress",
+      title: "Gestion du stresss",
       description: "Apprendre à réguler ses émotions et réduire les tensions au quotidien.",
       link: "/gestion-stress"
     },
